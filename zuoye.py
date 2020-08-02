@@ -61,4 +61,3 @@ if len(username) >= 5 and len(username) <= 8:
 else:
     print("输入的账号长度不符合规范")
 
-
