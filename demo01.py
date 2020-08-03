@@ -27,12 +27,15 @@
 #     student[key]=value
 # print(student)
 
-a =  ["zhangsan", "lixi", "wanger"]
-b = input("请输入3个密码用逗号隔开: ")
-c = b.split(",")
-e = {a[0]:c[0],a[1]:c[1],a[2]:c[2]}
-print(e)
+# a =  ["zhangsan", "lixi", "wanger"]
+# b = input("请输入3个密码用逗号隔开: ")
+# c = b.split(",")
+# e = {a[0]:c[0],a[1]:c[1],a[2]:c[2]}
+# print(e)
 
 """
-
+print(),input(),len(),type(),range()
+index(),count(),sort(),insert(),append(),remove(),extend(),clear(),pop()
+update(),pop(),get(),values(),keys(),items()
 """
+
