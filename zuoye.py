@@ -61,3 +61,6 @@ if len(username) >= 5 and len(username) <= 8:
 else:
     print("输入的账号长度不符合规范")
 
+t = [1,2,3,4,5,True]
+for i in range(len(t)):
+    print("t的下标为{}，值是{}".format(i,t[i]))
