@@ -23,5 +23,14 @@ append(),insert(),extend(),sort(reverse=True),clear()这些方法
 # print(list(a.values()))
 # print(list(a.items()))
 
-a = eval("(1,'你好',True)")
-print(type(a))
+# a = eval("(1,'你好',True)")
+# print(type(a))
+
+def jianfa(a1,a2):
+    a = a1 - a2
+    return a
+
+s1 = 2
+s2 = 3
+s3 = jianfa(s1,s2)
+print(s3)
