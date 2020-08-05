@@ -6,6 +6,7 @@
 
 
 """
+方法：print(),input(),len(),range(),type(),eval(),format(),split()
 元组只有index(),count()两个方法
 数组有del()删除下标,remove()删除具体某个值,pop(4)取走,index(),count()
 append(),insert(),extend(),sort(reverse=True),clear()这些方法
@@ -23,5 +24,17 @@ append(),insert(),extend(),sort(reverse=True),clear()这些方法
 # print(list(a.values()))
 # print(list(a.items()))
 
-a = eval("(1,'你好',True)")
-print(type(a))
+# a = eval("(1,'你好',True)")
+# print(type(a))
+high = {}
+low = {}
+a = 0
+student = ["chen","jing","wang","sicas"]
+while a < len(student):
+    chenji = int(input("请输入成绩："))
+    if chenji >= 60:
+        high[student[a]] = chenji
+    else:
+        low[student[a]] = chenji 
+    a = a+1
+print(high,low)
