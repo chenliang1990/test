@@ -16,6 +16,6 @@ sql = "select * from t_pymysql_account where username = '{}' and password = '{}'
 r = query(sql)
 print(r)
 if len(r) == 0:
-    print("登录成功")
-else:
     print("登录失败")
+else:
+    print("登录成功")
