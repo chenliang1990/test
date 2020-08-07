@@ -39,7 +39,7 @@ while a < len(student):
         low[student[a]] = chenji 
     a = a+1
 print(high,low)
-=======
+
 
 def jianfa(a1,a2):
     a = a1 - a2
@@ -49,4 +49,3 @@ s1 = 2
 s2 = 3
 s3 = jianfa(s1,s2)
 print(s3)
->>>>>>> 9cdd0ca1623b1f859c6763c3da54793bcc645d7b
