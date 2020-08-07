@@ -15,7 +15,7 @@ password = input("请输入密码: ")
 sql = "select * from t_pymysql_account where username = '{}' and password = '{}'".format(username,password)
 r = query(sql)
 print(r)
-if r[0][1] == username and r[0][2] == password:
-    print("登录成功")
-else:
+if len(r) == 0:
     print("登录失败")
+else:
+    print("登录成功")

@@ -26,7 +26,7 @@ def commit(sql):
     # db = pymysql.connect(host="127.0.0.1", user="root", password="123456", db="lux")
     cur = db.cursor()    # 获取游标：查询窗口
     cur.execute(sql)     # 指定sql语句
-    db.commit()          # 提交修改
+    db.commit()          # 提交修改(事务)
     db.close()
 
 # sql = "update t_user set username='zyhf1' where id=272"
