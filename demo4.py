@@ -24,9 +24,17 @@ append(),insert(),extend(),sort(reverse=True),clear()这些方法
 # print(list(a.values()))
 # print(list(a.items()))
 
-# a = eval("(1,'你好',True)")
-# print(type(a))
-<<<<<<< HEAD
+#eval()方法可以实现字符串与元组，数组，字典的相互转换
+# 字符串转换成字典
+a = "{1: 'a', 2: 'b'}"
+print(type(a))
+b = eval(a)
+print(type(b))
+print(b)
+
+
+a = eval("(1,'你好',True)")
+print(type(a))
 high = {}
 low = {}
 a = 0
@@ -41,11 +49,11 @@ while a < len(student):
 print(high,low)
 
 
-def jianfa(a1,a2):
-    a = a1 - a2
-    return a
+# def jianfa(a1,a2):
+#     a = a1 - a2
+#     return a
 
-s1 = 2
-s2 = 3
-s3 = jianfa(s1,s2)
-print(s3)
+# s1 = 2
+# s2 = 3
+# s3 = jianfa(s1,s2)
+# print(s3)

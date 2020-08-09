@@ -13,3 +13,4 @@ class Bird():
 b = Bird("小红",20,"女")
 b.name = "小花"
 print(b.name,b.age,b.sex)
+
